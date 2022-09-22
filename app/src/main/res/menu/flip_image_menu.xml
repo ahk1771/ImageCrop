@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_action_flip_horizontally"
+        android:title="Flip Horizontally"
+        android:icon="@drawable/ic_arrows_horizontal_white_30"/>
+
+    <item
+        android:id="@+id/main_action_flip_vertically"
+        android:title="Flip Vertically"
+        android:icon="@drawable/ic_arrows_vertical_white_30"/>
+</menu>

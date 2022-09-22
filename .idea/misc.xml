@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_arrows_horizontal_white_30.xml" value="0.1" />
         <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_aspect_ratio_24.xml" value="0.117" />
         <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_crop_24.xml" value="0.117" />
         <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_done_24.xml" value="0.117" />
         <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_flip_24.xml" value="0.117" />
+        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_ratio_16to9_white_30.xml" value="0.1" />
         <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/drawable/ic_rotate_right_24.xml" value="0.117" />
-        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/menu/aspect_ratio_menu.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/AndroidApps/ImageCropTest/app/src/main/res/menu/flip_image_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_action_ratio_0"
+        android:title="Free"
+        android:icon="@drawable/ic_ratio_free_white_30"/>
+    <item
+        android:id="@+id/main_action_ratio_1"
+        android:title="1:1"
+        android:icon="@drawable/ic_ratio_1to1_white_30"/>
+    <item
+        android:id="@+id/main_action_ratio_2"
+        android:title="4:3"
+        android:icon="@drawable/ic_ratio_4to3_white_30"/>
+    <item
+        android:id="@+id/main_action_ratio_3"
+        android:title="3:4"
+        android:icon="@drawable/ic_ratio_3to4_white_30"/>
+    <item
+        android:id="@+id/main_action_ratio_4"
+        android:title="16:9"
+        android:icon="@drawable/ic_ratio_16to9_white_30"/>
+    <item
+        android:id="@+id/main_action_ratio_5"
+        android:title="9:16"
+        android:icon="@drawable/ic_ratio_9to16_white_30"/>
+</menu>

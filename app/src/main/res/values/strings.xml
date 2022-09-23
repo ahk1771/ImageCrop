@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ImageCrop</string>
+    <string name="app_name">Image Crop</string>
 
     <string name="file_info">File Info</string>
     <string name="file_name">Filename</string>

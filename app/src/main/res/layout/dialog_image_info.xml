@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/dialogTitle">
+
+            <LinearLayout
+                android:id="@+id/dialogDateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_date"/>
+
+                <TextView
+                    android:id="@+id/dialogDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialogTimeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_time"/>
+
+                <TextView
+                    android:id="@+id/dialogTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialogResLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_resolution"/>
+
+                <TextView
+                    android:id="@+id/dialogResolution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialogFlashLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_flash"/>
+
+                <TextView
+                    android:id="@+id/dialogFlash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialogExposureLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_exposure"/>
+
+                <TextView
+                    android:id="@+id/dialogExposure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialogApertureLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    android:layout_weight="5"
+                    android:text="@string/file_aperture"/>
+
+                <TextView
+                    android:id="@+id/dialogAperture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:layout_weight="5"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

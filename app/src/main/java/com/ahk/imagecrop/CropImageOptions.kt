@@ -11,7 +11,7 @@ object CropImageOptions {
     var ratio: Pair<Int, Int>? = Pair(1, 1)
     var maxZoomLvl: Int = 2
     var fixAspectRatio: Boolean = true
-    var autoZoom: Boolean = true
+    var autoZoom: Boolean = false
     var multiTouch: Boolean = true
     var centerMove: Boolean = true
     var showCropOverlay: Boolean = true

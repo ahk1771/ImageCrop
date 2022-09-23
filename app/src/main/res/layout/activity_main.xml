@@ -30,14 +30,6 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/ic_undo_24"
-            android:padding="5dp"
-            android:layout_marginEnd="10dp"/>
-
-        <ImageView
-            android:id="@+id/mainImageInfo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/ic_info_24"
             android:padding="5dp"/>
 
     </LinearLayout>
@@ -101,11 +93,11 @@
             android:background="@color/grey"/>
 
         <ImageView
-            android:id="@+id/mainRotate"
+            android:id="@+id/mainFlip"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="0.25"
-            android:src="@drawable/ic_rotate_right_24"/>
+            android:src="@drawable/ic_flip_24"/>
 
         <View
             android:layout_width="1dp"
@@ -113,11 +105,11 @@
             android:background="@color/grey"/>
 
         <ImageView
-            android:id="@+id/mainFlip"
+            android:id="@+id/mainImageInfo"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="0.25"
-            android:src="@drawable/ic_flip_24"/>
+            android:src="@drawable/ic_outline_info_24"/>
 
         <View
             android:layout_width="1dp"
